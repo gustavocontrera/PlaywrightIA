@@ -1,0 +1,3 @@
+[      70ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.laboratoriodetesting.com/auth/login:0
+[   64323ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.laboratoriodetesting.com/auth/signup:0
+[   64323ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.laboratoriodetesting.com/auth/signup:0

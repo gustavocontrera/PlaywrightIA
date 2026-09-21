@@ -1,0 +1,321 @@
+- generic [ref=f6e1]:
+  - navigation [ref=f6e2]:
+    - complementary [ref=f6e3]:
+      - button [ref=f6e4] [cursor=pointer]
+      - generic [ref=f6e7]:
+        - paragraph [ref=f6e8]: Imagen
+        - paragraph [ref=f6e9]: Nombre
+        - paragraph [ref=f6e10]: Cantidad
+        - paragraph [ref=f6e11]: Precio
+        - paragraph [ref=f6e12]: Eliminar
+      - generic [ref=f6e389]:
+        - img "Bandas Elásticas de Resistencia" [ref=f6e390]
+        - paragraph [ref=f6e391]: Bandas Elásticas de Resistencia
+        - paragraph [ref=f6e392]: "1"
+        - paragraph [ref=f6e393]: $350.00
+        - button [ref=f6e394] [cursor=pointer]
+      - generic [ref=f6e15]:
+        - paragraph [ref=f6e16]: "Total: $350.00"
+        - generic [ref=f6e17]:
+          - button "Ir al checkout" [ref=f6e18] [cursor=pointer]
+          - button "Limpiar" [ref=f6e19] [cursor=pointer]
+    - generic [ref=f6e20]:
+      - link "Laboratorio De Testing" [ref=f6e22] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f6e23]:
+          - generic [ref=f6e24]: Laboratorio
+          - generic [ref=f6e25]: De Testing
+      - list [ref=f6e29]:
+        - listitem [ref=f6e379]:
+          - link "Inicio" [ref=f6e380] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f6e381]:
+          - link "Acceder" [ref=f6e382] [cursor=pointer]:
+            - /url: /auth/login
+        - listitem [ref=f6e383]:
+          - link "Registrarse" [ref=f6e384] [cursor=pointer]:
+            - /url: /auth/signup
+    - link [ref=f6e35] [cursor=pointer]:
+      - /url: "#"
+    - button "1" [active] [ref=f6e397] [cursor=pointer]
+  - generic [ref=f6e42]:
+    - link [ref=f6e43] [cursor=pointer]:
+      - /url: /
+    - link "Bandas Elásticas de Resistencia" [ref=f6e48] [cursor=pointer]:
+      - /url: /products/bandas-elasticas-de-resistencia
+  - main [ref=f6e49]:
+    - generic [ref=f6e50]:
+      - generic [ref=f6e51]:
+        - img "Bandas Elásticas de Resistencia" [ref=f6e53]
+        - generic [ref=f6e54]:
+          - generic [ref=f6e55]:
+            - heading "Bandas Elásticas de Resistencia" [level=1] [ref=f6e56]
+            - generic [ref=f6e57]: (128 reviews)
+            - button [ref=f6e385] [cursor=pointer]
+            - paragraph [ref=f6e71]: $350.00
+            - paragraph [ref=f6e72]: Estas bandas elásticas son perfectas para fortalecer y tonificar tus músculos en cualquier lugar. Son muy versátiles y puedes usarlas para una variedad de ejercicios, desde entrenamiento de fuerza hasta estiramientos. Hechas de un material duradero, ofrecen distintos niveles de resistencia, lo que las hace ideales tanto para principiantes como para atletas avanzados.
+          - generic [ref=f6e73]:
+            - generic [ref=f6e74]:
+              - button "-" [ref=f6e75] [cursor=pointer]
+              - generic [ref=f6e76]: "1"
+              - button "+" [ref=f6e77] [cursor=pointer]
+            - button [ref=f6e78] [cursor=pointer]:
+              - paragraph [ref=f6e81]: Añadir al carrito
+          - separator [ref=f6e82]
+          - generic [ref=f6e83]:
+            - heading "Confía en Nuestra Plataforma" [level=3] [ref=f6e84]
+            - list [ref=f6e85]:
+              - listitem [ref=f6e86]: Pagos Digitales
+              - listitem [ref=f6e87]: Envíos Seguros
+              - listitem [ref=f6e88]: Garantía asegurada
+              - listitem [ref=f6e89]: Protección bilateral
+      - generic [ref=f6e91]:
+        - generic [ref=f6e92]:
+          - article [ref=f6e94]:
+            - link [ref=f6e95] [cursor=pointer]:
+              - /url: /products/banda-elastica-de-resistencia
+              - img "card-image" [ref=f6e97]
+              - generic [ref=f6e98]:
+                - generic [ref=f6e99]:
+                  - paragraph [ref=f6e100]: Banda Elástica de Resistencia
+                  - paragraph [ref=f6e101]: $300.00
+                - paragraph [ref=f6e102]: La banda elástica de resistencia es una herramienta versátil para mejorar tu fuerza y flexibilidad. Ideal para realizar ejercicios de tonificación y estiramiento, es ligera y fácil de transportar, lo que la hace perfecta para entrenamientos en casa o al aire libre.
+            - button "Añadir al carrito" [ref=f6e104] [cursor=pointer]
+          - article [ref=f6e106]:
+            - link [ref=f6e107] [cursor=pointer]:
+              - /url: /products/rodilleras-deportivas
+              - img "card-image" [ref=f6e109]
+              - generic [ref=f6e110]:
+                - generic [ref=f6e111]:
+                  - paragraph [ref=f6e112]: Rodilleras Deportivas
+                  - paragraph [ref=f6e113]: $350.00
+                - paragraph [ref=f6e114]: Las rodilleras deportivas brindan un excelente soporte y protección a tus rodillas durante la actividad física. Están fabricadas con un material elástico y transpirable que asegura un ajuste cómodo y flexible, ayudando a prevenir lesiones y mejorar la estabilidad.
+            - button "Añadir al carrito" [ref=f6e116] [cursor=pointer]
+          - article [ref=f6e118]:
+            - link [ref=f6e119] [cursor=pointer]:
+              - /url: /products/guantes-para-levantamiento-de-pesas
+              - img "card-image" [ref=f6e121]
+              - generic [ref=f6e122]:
+                - generic [ref=f6e123]:
+                  - paragraph [ref=f6e124]: Guantes para Levantamiento de Pesas
+                  - paragraph [ref=f6e125]: $400.00
+                - paragraph [ref=f6e126]: Estos guantes para levantamiento de pesas ofrecen protección y comodidad durante tus entrenamientos. Su diseño ergonómico permite un agarre firme, mientras que el material acolchado reduce la presión sobre las palmas y protege tus manos de lesiones.
+            - button "Añadir al carrito" [ref=f6e128] [cursor=pointer]
+          - article [ref=f6e130]:
+            - link [ref=f6e131] [cursor=pointer]:
+              - /url: /products/reloj-deportivo-gps
+              - img "card-image" [ref=f6e133]
+              - generic [ref=f6e134]:
+                - generic [ref=f6e135]:
+                  - paragraph [ref=f6e136]: Reloj Deportivo GPS
+                  - paragraph [ref=f6e137]: $7,000.00
+                - paragraph [ref=f6e138]: El reloj deportivo GPS es un accesorio imprescindible para los atletas que desean monitorear su rendimiento. Ofrece funciones avanzadas como seguimiento de distancia, ritmo, frecuencia cardíaca y notificaciones inteligentes, todo en un diseño resistente al agua y al sudor.
+            - button "Añadir al carrito" [ref=f6e140] [cursor=pointer]
+          - article [ref=f6e142]:
+            - link [ref=f6e143] [cursor=pointer]:
+              - /url: /products/tapete-de-yoga-antideslizante
+              - img "card-image" [ref=f6e145]
+              - generic [ref=f6e146]:
+                - generic [ref=f6e147]:
+                  - paragraph [ref=f6e148]: Tapete de Yoga Antideslizante
+                  - paragraph [ref=f6e149]: $500.00
+                - paragraph [ref=f6e150]: El tapete de yoga antideslizante es perfecto para quienes buscan un soporte seguro y cómodo durante sus sesiones de yoga o pilates. Está fabricado con un material resistente que ofrece un excelente agarre, incluso durante las posturas más exigentes.
+            - button "Añadir al carrito" [ref=f6e152] [cursor=pointer]
+          - article [ref=f6e154]:
+            - link [ref=f6e155] [cursor=pointer]:
+              - /url: /products/pesas-de-alto-rendimiento
+              - img "card-image" [ref=f6e157]
+              - generic [ref=f6e158]:
+                - generic [ref=f6e159]:
+                  - paragraph [ref=f6e160]: Pesas de Alto Rendimiento
+                  - paragraph [ref=f6e161]: $3,000.00
+                - paragraph [ref=f6e162]: Las pesas de alto rendimiento son ideales para quienes buscan mejorar su fuerza y resistencia. Están diseñadas para un uso intensivo, con un recubrimiento antideslizante que asegura un agarre firme durante los entrenamientos. Son perfectas para rutinas de levantamiento de pesas en casa o en el gimnasio.
+            - button "Añadir al carrito" [ref=f6e164] [cursor=pointer]
+          - article [ref=f6e166]:
+            - link [ref=f6e167] [cursor=pointer]:
+              - /url: /products/raquetas-de-padel-con-mango-suave
+              - img "card-image" [ref=f6e169]
+              - generic [ref=f6e170]:
+                - generic [ref=f6e171]:
+                  - paragraph [ref=f6e172]: Raquetas de Pádel con Mango Suave
+                  - paragraph [ref=f6e173]: $3,500.00
+                - paragraph [ref=f6e174]: Estas raquetas de pádel están diseñadas para brindar potencia y control en cada golpe. Fabricadas con materiales de alta calidad, ofrecen un excelente rendimiento en la cancha, permitiendo una experiencia de juego inigualable tanto para principiantes como para jugadores avanzados.
+            - button "Añadir al carrito" [ref=f6e176] [cursor=pointer]
+          - article [ref=f6e178]:
+            - link [ref=f6e179] [cursor=pointer]:
+              - /url: /products/balon-de-futbol-profesional
+              - img "card-image" [ref=f6e181]
+              - generic [ref=f6e182]:
+                - generic [ref=f6e183]:
+                  - paragraph [ref=f6e184]: Balón de Fútbol Profesional
+                  - paragraph [ref=f6e185]: $1,200.00
+                - paragraph [ref=f6e186]: El balón de fútbol profesional es ideal para entrenamientos y partidos. Fabricado con materiales de alta calidad, ofrece un control óptimo y una durabilidad excepcional. Su diseño aerodinámico garantiza un vuelo preciso y un excelente rendimiento en cada jugada.
+            - button "Añadir al carrito" [ref=f6e188] [cursor=pointer]
+          - article [ref=f6e190]:
+            - link [ref=f6e191] [cursor=pointer]:
+              - /url: /products/gafas-de-natacion-recubiertas
+              - img "card-image" [ref=f6e193]
+              - generic [ref=f6e194]:
+                - generic [ref=f6e195]:
+                  - paragraph [ref=f6e196]: Gafas de Natación recubiertas
+                  - paragraph [ref=f6e197]: $700.00
+                - paragraph [ref=f6e198]: Las gafas de natación son un accesorio indispensable para los amantes de la piscina. Cuentan con lentes antiniebla y protección UV, lo que garantiza una visión clara y nítida bajo el agua. Su diseño ergonómico se adapta a diferentes tamaños y formas de rostro.
+            - button "Añadir al carrito" [ref=f6e200] [cursor=pointer]
+          - article [ref=f6e202]:
+            - link [ref=f6e203] [cursor=pointer]:
+              - /url: /products/medias-tobilleras-fluorescentes
+              - img "card-image" [ref=f6e205]
+              - generic [ref=f6e206]:
+                - generic [ref=f6e207]:
+                  - paragraph [ref=f6e208]: Medias Tobilleras Fluorescentes
+                  - paragraph [ref=f6e209]: $250.00
+                - paragraph [ref=f6e210]: Las medias tobilleras fluorescentes ofrecen un toque de estilo y visibilidad durante tus entrenamientos. Fabricadas con un material transpirable, estas medias proporcionan un ajuste cómodo y aseguran que tus pies permanezcan secos incluso en las sesiones más intensas.
+            - button "Añadir al carrito" [ref=f6e212] [cursor=pointer]
+          - article [ref=f6e214]:
+            - link [ref=f6e215] [cursor=pointer]:
+              - /url: /products/medias-tobilleras-oscuras
+              - img "card-image" [ref=f6e217]
+              - generic [ref=f6e218]:
+                - generic [ref=f6e219]:
+                  - paragraph [ref=f6e220]: Medias Tobilleras Oscuras
+                  - paragraph [ref=f6e221]: $200.00
+                - paragraph [ref=f6e222]: Estas medias tobilleras oscuras son ideales para cualquier tipo de deporte o actividad física. Están hechas de un material transpirable que mantiene los pies frescos y secos durante el ejercicio. Son suaves, cómodas y ofrecen un ajuste perfecto para mayor rendimiento.
+            - button "Añadir al carrito" [ref=f6e224] [cursor=pointer]
+          - article [ref=f6e226]:
+            - link [ref=f6e227] [cursor=pointer]:
+              - /url: /products/medias-ortopedicas-de-compresion
+              - img "card-image" [ref=f6e229]
+              - generic [ref=f6e230]:
+                - generic [ref=f6e231]:
+                  - paragraph [ref=f6e232]: Medias Ortopédicas de Compresión
+                  - paragraph [ref=f6e233]: $400.00
+                - paragraph [ref=f6e234]: Las medias ortopédicas de compresión son ideales para quienes necesitan mejorar la circulación durante sus actividades deportivas o de recuperación. Proporcionan un ajuste firme y cómodo, reduciendo la fatiga muscular y acelerando la recuperación después del ejercicio.
+            - button "Añadir al carrito" [ref=f6e236] [cursor=pointer]
+          - article [ref=f6e238]:
+            - link [ref=f6e239] [cursor=pointer]:
+              - /url: /products/camiseta-deportiva-gris-para-hombre
+              - img "card-image" [ref=f6e241]
+              - generic [ref=f6e242]:
+                - generic [ref=f6e243]:
+                  - paragraph [ref=f6e244]: Camiseta Deportiva Gris para Hombre
+                  - paragraph [ref=f6e245]: $700.00
+                - paragraph [ref=f6e246]: Esta camiseta deportiva gris para hombre es la opción perfecta para quienes buscan una prenda cómoda y versátil para sus entrenamientos. Está fabricada con un tejido ligero que se adapta al cuerpo, ofreciendo una gran libertad de movimiento y una excelente transpirabilidad.
+            - button "Añadir al carrito" [ref=f6e248] [cursor=pointer]
+          - article [ref=f6e250]:
+            - link [ref=f6e251] [cursor=pointer]:
+              - /url: /products/camiseta-de-licra-deportiva-para-hombre
+              - img "card-image" [ref=f6e253]
+              - generic [ref=f6e254]:
+                - generic [ref=f6e255]:
+                  - paragraph [ref=f6e256]: Camiseta de Licra Deportiva para Hombre
+                  - paragraph [ref=f6e257]: $650.00
+                - paragraph [ref=f6e258]: La camiseta de licra deportiva para hombre está diseñada para brindar comodidad y flexibilidad en tus entrenamientos. Su material transpirable ayuda a mantenerte seco, incluso durante los entrenamientos más intensos. Es ideal para correr, ir al gimnasio o practicar deportes al aire libre.
+            - button "Añadir al carrito" [ref=f6e260] [cursor=pointer]
+          - article [ref=f6e262]:
+            - link [ref=f6e263] [cursor=pointer]:
+              - /url: /products/camiseta-de-licra-deportiva-para-dama
+              - img "card-image" [ref=f6e265]
+              - generic [ref=f6e266]:
+                - generic [ref=f6e267]:
+                  - paragraph [ref=f6e268]: Camiseta de Licra Deportiva para Dama
+                  - paragraph [ref=f6e269]: $600.00
+                - paragraph [ref=f6e270]: Esta camiseta de licra para dama es ideal para entrenamientos intensos y actividades deportivas. Fabricada con un tejido de alta calidad que absorbe la humedad, ofrece una sensación de frescura y comodidad durante todo el ejercicio. Su ajuste ceñido proporciona una libertad de movimiento excepcional.
+            - button "Añadir al carrito" [ref=f6e272] [cursor=pointer]
+          - article [ref=f6e274]:
+            - link [ref=f6e275] [cursor=pointer]:
+              - /url: /products/chaqueta-deportiva-para-correr
+              - img "card-image" [ref=f6e277]
+              - generic [ref=f6e278]:
+                - generic [ref=f6e279]:
+                  - paragraph [ref=f6e280]: Chaqueta Deportiva para Correr
+                  - paragraph [ref=f6e281]: $1,500.00
+                - paragraph [ref=f6e282]: La chaqueta deportiva para correr está fabricada con un material transpirable y de secado rápido, ideal para entrenar en condiciones climáticas adversas. Ofrece protección contra el viento y la lluvia, permitiéndote mantenerte cómodo y seco durante tu actividad física. Además, tiene detalles reflectantes para mayor visibilidad y seguridad.
+            - button "Añadir al carrito" [ref=f6e284] [cursor=pointer]
+          - article [ref=f6e286]:
+            - link [ref=f6e287] [cursor=pointer]:
+              - /url: /products/press-de-banca-plegable
+              - img "card-image" [ref=f6e289]
+              - generic [ref=f6e290]:
+                - generic [ref=f6e291]:
+                  - paragraph [ref=f6e292]: Press de Banca Plegable
+                  - paragraph [ref=f6e293]: $6,500.00
+                - paragraph [ref=f6e294]: El press de banca plegable es el complemento ideal para tu gimnasio en casa. Este equipo permite realizar ejercicios de pecho, hombros y brazos de manera segura y eficiente. Su diseño compacto y plegable facilita el almacenamiento, mientras que su estructura de acero asegura estabilidad y resistencia durante los entrenamientos.
+            - button "Añadir al carrito" [ref=f6e296] [cursor=pointer]
+          - article [ref=f6e298]:
+            - link [ref=f6e299] [cursor=pointer]:
+              - /url: /products/mancuernas-recubiertas-de-neopreno
+              - img "card-image" [ref=f6e301]
+              - generic [ref=f6e302]:
+                - generic [ref=f6e303]:
+                  - paragraph [ref=f6e304]: Mancuernas Recubiertas de Neopreno
+                  - paragraph [ref=f6e305]: $800.00
+                - paragraph [ref=f6e306]: Las mancuernas recubiertas de neopreno ofrecen un agarre cómodo y antideslizante, lo que las convierte en una opción perfecta para rutinas de entrenamiento en casa o en el gimnasio. Su diseño ergonómico garantiza que se adapten bien a tus manos y que sean fáciles de usar, incluso durante los ejercicios más intensos.
+            - button "Añadir al carrito" [ref=f6e308] [cursor=pointer]
+          - article [ref=f6e310]:
+            - link [ref=f6e311] [cursor=pointer]:
+              - /url: /products/set-de-pesas-ajustables
+              - img "card-image" [ref=f6e313]
+              - generic [ref=f6e314]:
+                - generic [ref=f6e315]:
+                  - paragraph [ref=f6e316]: Set de Pesas Ajustables
+                  - paragraph [ref=f6e317]: $2,500.00
+                - paragraph [ref=f6e318]: Este set de pesas ajustables es ideal para quienes desean entrenar desde casa. El set incluye pesas de diferentes pesos que se pueden combinar para ajustarse a tu nivel de entrenamiento. Las pesas están recubiertas de un material antideslizante que asegura un agarre cómodo y seguro durante tu rutina de ejercicios.
+            - button "Añadir al carrito" [ref=f6e320] [cursor=pointer]
+          - article [ref=f6e322]:
+            - link [ref=f6e323] [cursor=pointer]:
+              - /url: /products/bandas-elasticas-de-resistencia
+              - img "card-image" [ref=f6e325]
+              - generic [ref=f6e326]:
+                - generic [ref=f6e327]:
+                  - paragraph [ref=f6e328]: Bandas Elásticas de Resistencia
+                  - paragraph [ref=f6e329]: $350.00
+                - paragraph [ref=f6e330]: Estas bandas elásticas son perfectas para fortalecer y tonificar tus músculos en cualquier lugar. Son muy versátiles y puedes usarlas para una variedad de ejercicios, desde entrenamiento de fuerza hasta estiramientos. Hechas de un material duradero, ofrecen distintos niveles de resistencia, lo que las hace ideales tanto para principiantes como para atletas avanzados.
+            - button "Añadir al carrito" [ref=f6e332] [cursor=pointer]
+        - button:
+          - generic [ref=f6e333] [cursor=pointer]
+        - button:
+          - generic [ref=f6e336] [cursor=pointer]
+  - contentinfo [ref=f6e339]:
+    - generic [ref=f6e340]:
+      - generic [ref=f6e341]:
+        - generic [ref=f6e342]:
+          - link "Laboratorio De Testing" [ref=f6e343] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f6e344]:
+              - generic [ref=f6e345]: Laboratorio
+              - generic [ref=f6e346]: De Testing
+          - heading [level=5]
+        - generic [ref=f6e351]:
+          - generic [ref=f6e352]:
+            - generic [ref=f6e353]: Enlaces De Interés
+            - list [ref=f6e354]:
+              - listitem [ref=f6e355]:
+                - link "Inicio" [ref=f6e356] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f6e357]:
+                - link "Checkout" [ref=f6e358] [cursor=pointer]:
+                  - /url: /checkout
+              - listitem [ref=f6e359]:
+                - link "Login Page" [ref=f6e360] [cursor=pointer]:
+                  - /url: /auth/login
+              - listitem [ref=f6e361]:
+                - link "Signup Page" [ref=f6e362] [cursor=pointer]:
+                  - /url: /auth/signup
+              - listitem [ref=f6e363]:
+                - link "Formulario de práctica" [ref=f6e364] [cursor=pointer]:
+                  - /url: /form-practice
+          - generic [ref=f6e365]:
+            - generic [ref=f6e366]: Otros Recursos
+            - list [ref=f6e367]:
+              - listitem [ref=f6e368]:
+                - link "Curso de Udemy" [ref=f6e369] [cursor=pointer]:
+                  - /url: https://www.udemy.com/course/automatizacion-cypress-de-la-teoria-a-la-practica/?referralCode=9F9C9BD35231F498A4CE
+              - listitem [ref=f6e370]:
+                - link "Preparación ISTQB" [ref=f6e371] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=f6e372]:
+                - link "Certificaciones" [ref=f6e373] [cursor=pointer]:
+                  - /url: "#"
+      - separator [ref=f6e374]
+      - generic [ref=f6e375]: Copyright © 2024 TestSports by JD.
+  - alert [ref=f6e378]

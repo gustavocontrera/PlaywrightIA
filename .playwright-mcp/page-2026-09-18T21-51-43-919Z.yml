@@ -1,0 +1,36 @@
+- generic [ref=f6e1]:
+  - alert [ref=f6e378]: Laboratorio de Testing | Login
+  - main [aria-hidden] [ref=f6e414]:
+    - generic [ref=f6e415]:
+      - generic [ref=f6e416]:
+        - heading [level=1] [ref=f6e441]: Inicia Sesión
+        - paragraph [ref=f6e418]: O Crea una nueva cuenta
+      - generic [ref=f6e419]:
+        - link [ref=f6e442] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f6e422]:
+            - generic [ref=f6e423]: Laboratorio
+            - generic [ref=f6e424]: De Testing
+        - generic [ref=f6e428]:
+          - generic [ref=f6e429]: Email
+          - textbox [ref=f6e443]:
+            - /placeholder: Ingresa tu email
+            - text: correo-invalido
+          - paragraph [ref=f6e439]: Email inválido
+        - generic [ref=f6e431]:
+          - generic [ref=f6e432]: Contraseña
+          - textbox [ref=f6e444]:
+            - /placeholder: Ingresa tu contraseña
+            - text: "123"
+          - paragraph [ref=f6e440]: La contraseña debe tener al menos 8 caracteres
+          - img [ref=f6e434] [cursor=pointer]
+        - button [disabled] [ref=f6e445]: Iniciar Sesión
+        - link [ref=f6e446] [cursor=pointer]:
+          - /url: /auth/signup
+          - text: ¿No tienes una cuenta? Crea una
+      - button [ref=f6e447] [cursor=pointer]: ¿Olvidaste tu contraseña?
+  - dialog [ref=f6e449]:
+    - heading "Ingresa tu dirección email" [level=2] [ref=f6e450]
+    - textbox [active] [ref=f6e451]
+    - text: "!"
+    - button "Recuperar contraseña" [ref=f6e453] [cursor=pointer]

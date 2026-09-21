@@ -1,0 +1,32 @@
+- generic [ref=f6e1]:
+  - main [aria-hidden] [ref=f6e2]:
+    - generic [ref=f6e3]:
+      - generic [ref=f6e4]:
+        - heading [level=1] [ref=f6e28]: Inicia Sesión
+        - paragraph [ref=f6e6]: O Crea una nueva cuenta
+      - generic [ref=f6e7]:
+        - link [ref=f6e29] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f6e10]:
+            - generic [ref=f6e11]: Laboratorio
+            - generic [ref=f6e12]: De Testing
+        - generic [ref=f6e16]:
+          - generic [ref=f6e17]: Email
+          - textbox [ref=f6e30]:
+            - /placeholder: Ingresa tu email
+        - generic [ref=f6e19]:
+          - generic [ref=f6e20]: Contraseña
+          - textbox [ref=f6e31]:
+            - /placeholder: Ingresa tu contraseña
+          - img [ref=f6e22] [cursor=pointer]
+        - button [disabled] [ref=f6e32]: Iniciar Sesión
+        - link [ref=f6e33] [cursor=pointer]:
+          - /url: /auth/signup
+          - text: ¿No tienes una cuenta? Crea una
+      - button [ref=f6e34] [cursor=pointer]: ¿Olvidaste tu contraseña?
+  - alert [ref=f6e27]
+  - dialog [ref=f6e36]:
+    - heading "Ingresa tu dirección email" [level=2] [ref=f6e37]
+    - textbox [active] [ref=f6e38]
+    - text: "!"
+    - button "Recuperar contraseña" [ref=f6e40] [cursor=pointer]

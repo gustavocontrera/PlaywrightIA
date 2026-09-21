@@ -1,0 +1,36 @@
+- generic [active] [ref=f6e1]:
+  - alert [ref=f6e27]: Laboratorio de Testing | Signup
+  - main [ref=f6e41]:
+    - generic [ref=f6e42]:
+      - generic [ref=f6e43]:
+        - heading "Crea un usuario nuevo" [level=1] [ref=f6e44]
+        - paragraph [ref=f6e45]: O Inicia sesión en tu cuenta.
+      - generic [ref=f6e46]:
+        - link "Laboratorio De Testing" [ref=f6e48] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f6e49]:
+            - generic [ref=f6e50]: Laboratorio
+            - generic [ref=f6e51]: De Testing
+        - generic [ref=f6e55]:
+          - generic [ref=f6e56]: Email
+          - textbox "Ingresa tu email" [ref=f6e57]
+          - paragraph
+        - generic [ref=f6e58]:
+          - generic [ref=f6e59]: Nombre completo
+          - textbox "Ingresa tu nombre completo" [ref=f6e60]
+          - paragraph
+        - generic [ref=f6e61]:
+          - generic [ref=f6e62]: Contraseña
+          - textbox "Ingresa tu contraseña" [ref=f6e63]
+          - paragraph
+          - button:
+            - img [ref=f6e64] [cursor=pointer]
+        - generic [ref=f6e66]:
+          - generic [ref=f6e67]: Confirmar contraseña
+          - textbox "Repite tu contraseña" [ref=f6e68]
+          - paragraph
+          - button:
+            - img [ref=f6e69] [cursor=pointer]
+        - button "Crear Usuario" [disabled] [ref=f6e71]
+        - link "¿Ya tienes una cuenta? Inicia Sesión" [ref=f6e72] [cursor=pointer]:
+          - /url: /auth/login
