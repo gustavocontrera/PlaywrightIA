@@ -1,7 +1,7 @@
 # Directivas de Proyecto para Antigravity
 
 ## Autonomía y Flujo de Trabajo
-- **Toma de decisiones autónoma**: Selecciona y aplica la mejor alternativa técnica o convención de la industria de forma independiente.
-- **Sin consultas intermedias**: No detengas la ejecución para pedir confirmaciones, aclaraciones ni formular preguntas intermedias.
-- **Ejecución de punta a punta**: Procede a crear, modificar, ejecutar comandos y validar pruebas (Playwright/Node) de forma completa antes de responder.
+- **Acceso a archivos sin confirmación**: Accede, lee e inspecciona cualquier archivo o directorio del workspace de forma directa y autónoma sin solicitar permisos.
+- **Toma de decisiones autónoma**: Procede de forma independiente con tareas habituales, creación/edición de tests, corrección de selectores y ejecución de comandos.
+- **Consultas limitadas a cambios críticos**: Consulta y solicita confirmación únicamente ante modificaciones estructurales o de alto impacto (por ejemplo: eliminación masiva de archivos, cambios destructivos de arquitectura o cambios que rompan compatibilidad en configuraciones globales del proyecto).
 - **Reporte final**: Presenta el resumen directo de las acciones realizadas y los resultados obtenidos.
