@@ -62,6 +62,30 @@ test.describe('Autenticación - Login', () => {
     await expect(loginPage.submitButton).toBeEnabled();
   });
 
+  test('Botón deshabilitado cuando solo se completa el email', async ({ page }) => {
+    const loginPage = new LoginPage(page);
+    await loginPage.goto();
+
+    await loginPage.emailInput.fill(loginData.credentials.valid.email);
+
+    await expect(loginPage.emailInput).toHaveValue(loginData.credentials.valid.email);
+    await expect(loginPage.passwordInput).toHaveValue('');
+    await expect(loginPage.submitButton).toBeDisabled();
+  });
+
+  // BUG detectado en la aplicación: Al ingresar una contraseña válida (>= 8 caracteres)
+  // con el email vacío, el frontend habilita el botón en lugar de mantenerlo deshabilitado.
+  test.fixme('Botón deshabilitado cuando solo se completa la contraseña', async ({ page }) => {
+    const loginPage = new LoginPage(page);
+    await loginPage.goto();
+
+    await loginPage.passwordInput.fill(loginData.credentials.valid.password);
+
+    await expect(loginPage.emailInput).toHaveValue('');
+    await expect(loginPage.passwordInput).toHaveValue(loginData.credentials.valid.password);
+    await expect(loginPage.submitButton).toBeDisabled();
+  });
+
   test('Prevención de envío con campos vacíos', async ({ page }) => {
     const loginPage = new LoginPage(page);
     await loginPage.goto();
