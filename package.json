@@ -1,11 +1,15 @@
 {
   "name": "playwrightia",
   "version": "1.0.0",
-  "description": "",
+  "description": "Framework de automatización E2E con Playwright, TypeScript y arquitectura asistida por IA (Page Object Model)",
   "main": "index.js",
   "scripts": {
     "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
     "test:login": "playwright test tests/e2e/login/login.spec.ts",
+    "test:cart": "playwright test tests/e2e/cart/cart-checkout.spec.ts",
+    "test:debug": "playwright test --debug",
     "report": "playwright show-report"
   },
   "keywords": [],
