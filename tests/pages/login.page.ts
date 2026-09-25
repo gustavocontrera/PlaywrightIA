@@ -27,7 +27,7 @@ export class LoginPage {
 
 	async expectLoaded(): Promise<void> {
 		await expect(this.page).toHaveURL(loginData.urls.login);
-		await expect(this.page.getByRole('heading', { name: loginData.headings.login, level: 1 })).toBeVisible();
+		await expect(this.page.getByRole('heading', { name: loginData.headings.loginHeading, level: 1 })).toBeVisible();
 	}
 
 	async fillCredentials(email: string, password: string): Promise<void> {

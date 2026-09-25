@@ -9,7 +9,7 @@ export const loginData = {
     signup: 'Laboratorio de Testing | Signup',
   },
   headings: {
-    login: 'Inicia Sesión',
+    loginHeading: 'Inicia Sesión',
     error: 'Error',
     recovery: 'Ingresa tu dirección email',
   },
