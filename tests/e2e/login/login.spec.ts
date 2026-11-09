@@ -119,3 +119,4 @@ test.describe('Autenticación - Login', () => {
     await expect(page).toHaveTitle(loginData.titles.signup);
   });
 });
+
